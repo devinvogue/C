@@ -3,6 +3,12 @@ body{
 	height: 100%;
 }
 
+#nav1{
+	min-height: 20px;
+	background-color: solid black;
+	border:0px;
+
+}
 
 #logo{
 	float: left;
@@ -70,14 +76,6 @@ header{
 	background-color: solid black;
 	border:0px;*/
 
-nav1{
-	min-height: 20px;
-	background-color: solid black;
-	border:0px;
-
-}
-
-
 
 
 section{
@@ -118,12 +116,6 @@ section{
   	
   	float: left;
   }
-
-  /* end of about us style sheet*/
-
-
-
-
 footer{
 	bottom:0px;
 	
