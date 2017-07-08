@@ -3,7 +3,7 @@ body{
 	height: 100%;
 }
 
-#nav1{
+.nav1{
 	min-height: 20px;
 	background-color: solid black;
 	border:0px;
@@ -31,14 +31,14 @@ body{
 #nav_links li{
 display: inline;
 }
-nav{
+
+.nav{
 
 	height: 78px;
 	padding: 5px;
 	text-align: right;
 
 	background: white;
-	border: 1px solid black;
 	
 }
 nav img{
