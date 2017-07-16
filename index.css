@@ -1,25 +1,57 @@
+@import url("bootstrap.min.css");
+
 body{
 	margin:0;
 	height: 100%;
 }
 
-.nav1{
+/*.nav1{
 	min-height: 20px;
 	background-color: solid black;
 	border:0px;
 
+}*/
+/*.hope{
+	text-align: left;
+	text-decoration: none;
+	color: white;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	padding-top: 20px;
+}*/
+
+#donate:hover{
+	background: yellow;
 }
+
+#donate{
+	text-decoration: none;
+	color: black;
+	text-align: right;
+	
+
+}
+
 
 #logo{
 	float: left;
 }
 /*these are the */
+.logo{
+	background-color: white;
+}
+
+.links{
+	background-color: #26a03d;
+}
 
 
 #logo img{
 	width: 100px;
-	height: 60px;
-	padding: 10px;
+	height: 100px;
+	
+	
 }
 
 
@@ -30,6 +62,7 @@ body{
 
 #nav_links li{
 display: inline;
+
 }
 
 .nav{
@@ -37,8 +70,12 @@ display: inline;
 	height: 78px;
 	padding: 5px;
 	text-align: right;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	padding-top: 20px;
 
-	background: white;
+	/*background: white;*/
 	
 }
 nav img{
@@ -47,87 +84,71 @@ nav img{
 
 }
 
+nav a:hover{
+	background-color:white;
+}
+
 nav a{
 	padding:15px;
 	margin-top:23px;
 	text-decoration: none;
-	color: green;
+	color: white;
+
 }
 
-header img{
-	width: 100%;
+#h1 {
+	margin:0px;
+
+
+
 }
 
 header{
 	
-	background-image:;
-	min-height: 600px;
-	border-radius: 5px;
-	border: 2px solid black;
+	height: 700px;
+	border-radius: 0px;
+	background:url('kid1.jpg') no-repeat;
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+	font-family: arial;
+
 
 
 }
+
+.donat1{
+ float: left;
+ text-align: left;
+ padding: 300px 50px 50px 100px;
+ color:#26a03d ;
+ font-family: georgia;
+}
+
+
 
 
 /*This style is for about us page               */
 
-/*#nav1{
-	min-height: 20px;
-	background-color: solid black;
-	border:0px;*/
 
 
 
-section{
-	min-height: 200px;
-	width: 100%;
 
-}
-#left h1{
-	background-color: black;
-	margin: 0px;
-	text-align: center; color: white;
-
-
-}
- section> #left{
- 	background: ;
- 
- 	border: 2px solid black;
-
- }
- 
- section> #middle{
- 	background-color:;
- 	border:2px solid black;
- 	
- }
-
-  section> #right{
- 	background: ;
- 	
- 	border: 2px solid black;
- 	
- }
-
-  section > #left,section> #middle,section >#right{
-  	width:33%; 
-  	height:600px;
-  	
-  	float: left;
-  }
 footer{
-	bottom:0px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	padding-top: 20px;
 	
 	  text-align: right; color: white;
 	  	height: 150px;
 	  	overflow: hidden;
-	background-color:green;
+	background-color:#26a03d;
 	width: 100%; 
-	border-radius: 5px;
-	border: 2px black;
-	border-top: 3px;
-	border-bottom: 3px;
+	border-radius: 0px;
+	border: 0px black;
+	border-top: 0px;
+	border-bottom: 0px;
 }
 
 
