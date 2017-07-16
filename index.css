@@ -21,8 +21,9 @@ body{
 	padding-top: 20px;
 }*/
 
-#donate:hover{
-	background: yellow;
+
+	
+
 }
 
 #donate{
@@ -117,14 +118,22 @@ header{
 
 }
 
-.donat1{
+.donate1{
  float: left;
  text-align: left;
- padding: 300px 50px 50px 100px;
- color:#26a03d ;
+ padding: 100px 50px 50px 100px;
+ color: black;
  font-family: georgia;
 }
 
+/*.button{
+	float: left;
+ text-align: left;
+ padding: 0px 50px 50px 100px;
+ color: black;
+ font-family: georgia;
+}
+*/
 
 
 
@@ -135,20 +144,34 @@ header{
 
 
 footer{
-	padding-right: 50px;
+	/*padding-right: 50px;
 	padding-bottom: 10px;
 	padding-left: 50px;
-	padding-top: 20px;
-	
-	  text-align: right; color: white;
-	  	height: 150px;
-	  	overflow: hidden;
+	padding-top: 20px;*/
+	height: 150px;
+	overflow: hidden;
 	background-color:#26a03d;
-	width: 100%; 
-	border-radius: 0px;
-	border: 0px black;
-	border-top: 0px;
-	border-bottom: 0px;
+	width: 100%
 }
 
+.social_media{
+	text-align: center;
+	float: middle;
+	color: white;
+	padding: 50px 50px 50px 50px;
+}
+
+.div{
+	text-align: right;
+	color: white;
+	float: right;
+	padding: 100px 50px 50px 50px;
+}
+
+.contact{
+	text-align: left;
+	color: white;
+	float: left;
+	padding: 50px 50px 50px 50px;
+}
 
