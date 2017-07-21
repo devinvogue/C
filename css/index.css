@@ -108,7 +108,7 @@ header{
 	
 	height: 700px;
 	border-radius: 0px;
-	background:url('kid1.jpg') no-repeat;
+	background:url('../kid1.jpg') no-repeat;
 	background-size: cover;
 	width: 100%;
 	text-align: center;
@@ -157,20 +157,39 @@ footer{
 .social_media{
 	text-align: center;
 	float: middle;
-	color: black;
+	color: white;
 	padding: 50px 50px 50px 50px;
 }
 
 .div{
 	text-align: right;
-	color: black;
+	color: white;
 	float: right;
 	padding: 100px 50px 50px 50px;
 }
+.divider{
+	height: 400px;
+	padding-top: 20px;
+}
+.left{
+	background: rgb(0,0,0,0.4);
+}
+.middle{
+	background: rgb(0,0,0,0.4);
+}
+
+.right{
+	background: rgb(0,0,0,0.4);
+}
+ .profile{
+ 	margin: 0 auto; 
+ 	text-align: center;
+
+ }
 
 .contact{
 	text-align: left;
-	color: black;
+	color: white;
 	float: left;
 	padding: 50px 50px 50px 50px;
 }
