@@ -1,17 +1,18 @@
 @import url("bootstrap.min.css");
-
+@import url("font-awesome.min.css");
 body{
-	margin:0;
-	height: 100%;
+	height: 1000px;
+	margin:0px;
+	width: 100%;
 }
 
-/*.nav1{
+.nav1{
 	min-height: 20px;
 	background-color: solid black;
 	border:0px;
+}
 
-}*/
-/*.hope{
+.hope{
 	text-align: left;
 	text-decoration: none;
 	color: white;
@@ -19,12 +20,12 @@ body{
 	padding-bottom: 10px;
 	padding-left: 50px;
 	padding-top: 20px;
-}*/
+}
 
 
 	
 
-}
+/*}*/
 
 #donate{
 	text-decoration: none;
@@ -66,22 +67,19 @@ display: inline;
 
 }
 
+.navbar{
+   margin-bottom: 0;
+}
+
 .nav{
-
-	height: 78px;
-	padding: 5px;
+	/*height: 78px;*/
+	/*padding: 5px;*/
 	text-align: right;
-	padding-right: 50px;
-	padding-bottom: 10px;
-	padding-left: 50px;
-	padding-top: 20px;
-
-	/*background: white;*/
+	background: white;
 	
 }
 nav img{
-	height:%;
-	width: 100px;
+	/*width: 100%;*/
 
 }
 
@@ -90,8 +88,8 @@ nav a:hover{
 }
 
 nav a{
-	padding:15px;
-	margin-top:23px;
+	/*padding:15px;*/
+	/*margin-top:23px;*/
 	text-decoration: none;
 	color: white;
 
@@ -106,34 +104,60 @@ nav a{
 
 header{
 	
-	height: 700px;
+	height: 600px;
 	border-radius: 0px;
-	background:url('kid1.jpg') no-repeat;
+	background:url('../kid1.jpg') no-repeat;
 	background-size: cover;
+	page-break-after: 30s;
+	/*background-size: cover;*/
 	width: 100%;
 	text-align: center;
 	font-family: arial;
+}
 
 
+.col-vol,.col-part,.col-sup{
+	width:100%;
+	float:left;
+	height:400px;
+	background-color:rgba(0, 128, 0, 0.53); 
+}
 
+.col-vol{
+	background-image: url("../ghana_kids.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+
+.col-vol h1{
+	color:#FFF;
+	/*padding:180px 0;*/
 }
 
 .donate1{
  float: left;
  text-align: left;
- padding: 100px 50px 50px 100px;
+ padding: 10px 70px 50px 100px;
  color: black;
  font-family: georgia;
+ display: inline;
 }
 
-/*.button{
+ .donate1 ul li h1{
+    color:#fff;
+    text-shadow:0px 1px 0px #333;
+ }
+
+.button{
 	float: left;
  text-align: left;
  padding: 0px 50px 50px 100px;
  color: black;
  font-family: georgia;
 }
-*/
+
 
 
 
@@ -144,11 +168,8 @@ header{
 
 
 footer{
-	/*padding-right: 50px;
-	padding-bottom: 10px;
-	padding-left: 50px;
-	padding-top: 20px;*/
-	height: 150px;
+	/*height: 0px;*/
+
 	overflow: hidden;
 	background-color:#26a03d;
 	width: 100%
@@ -157,21 +178,33 @@ footer{
 .social_media{
 	text-align: center;
 	float: middle;
-	color: black;
+	color: white;
 	padding: 50px 50px 50px 50px;
 }
 
 .div{
 	text-align: right;
-	color: black;
+	color: white;
 	float: right;
 	padding: 100px 50px 50px 50px;
 }
 
 .contact{
 	text-align: left;
-	color: black;
+	color: white;
 	float: left;
 	padding: 50px 50px 50px 50px;
 }
 
+
+
+.section{
+	height: 350px;
+	width: 100%;
+}
+
+.main-content{
+	width: 100%;
+	float: left;
+    margin: 20px 0;
+}
