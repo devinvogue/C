@@ -1,0 +1,196 @@
+@import url("bootstrap.min.css");
+
+body{
+	margin:0;
+	height: 100%;
+}
+
+/*.nav1{
+	min-height: 20px;
+	background-color: solid black;
+	border:0px;
+
+}*/
+/*.hope{
+	text-align: left;
+	text-decoration: none;
+	color: white;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	padding-top: 20px;
+}*/
+
+
+	
+
+}
+
+#donate{
+	text-decoration: none;
+	color: black;
+	text-align: right;
+	
+
+}
+
+
+#logo{
+	float: left;
+}
+/*these are the */
+.logo{
+	background-color: white;
+}
+
+.links{
+	background-color: #26a03d;
+}
+
+
+#logo img{
+	width: 100px;
+	height: 100px;
+	
+	
+}
+
+
+#nav_links{
+	display: inline-block;
+	float: right;
+}
+
+#nav_links li{
+display: inline;
+
+}
+
+.nav{
+
+	height: 78px;
+	padding: 5px;
+	text-align: right;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	padding-top: 20px;
+
+	/*background: white;*/
+	
+}
+nav img{
+	height:%;
+	width: 100px;
+
+}
+
+nav a:hover{
+	background-color:white;
+}
+
+nav a{
+	padding:15px;
+	margin-top:23px;
+	text-decoration: none;
+	color: white;
+
+}
+
+#h1 {
+	margin:0px;
+
+
+
+}
+
+header{
+	
+	height: 700px;
+	border-radius: 0px;
+	background:url('../kid1.jpg') no-repeat;
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+	font-family: arial;
+
+
+
+}
+
+.donate1{
+ float: left;
+ text-align: left;
+ padding: 100px 50px 50px 100px;
+ color: black;
+ font-family: georgia;
+}
+
+/*.button{
+	float: left;
+ text-align: left;
+ padding: 0px 50px 50px 100px;
+ color: black;
+ font-family: georgia;
+}
+*/
+
+
+
+/*This style is for about us page               */
+
+
+
+
+
+footer{
+	/*padding-right: 50px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	padding-top: 20px;*/
+	height: 150px;
+	overflow: hidden;
+	background-color:#26a03d;
+	width: 100%
+}
+
+.social_media{
+	text-align: center;
+	float: middle;
+	color: white;
+	padding: 50px 50px 50px 50px;
+}
+
+.div{
+	text-align: right;
+	color: white;
+	float: right;
+	padding: 100px 50px 50px 50px;
+}
+.divider{
+	height: 400px;
+	padding-top: 20px;
+}
+.left{
+	background: rgb(0,0,0,0.4);
+}
+.middle{
+	background: rgb(0,0,0,0.4);
+}
+
+.right{
+	background: rgb(0,0,0,0.4);
+}
+ .profile{
+ 	margin: 0 auto; 
+ 	text-align: center;
+
+ }
+
+.contact{
+	text-align: left;
+	color: white;
+	float: left;
+	padding: 50px 50px 50px 50px;
+}
+

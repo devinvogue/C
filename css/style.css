@@ -6,6 +6,9 @@ body{
 	width: 100%;
 }
 
+
+
+
 .nav1{
 	min-height: 20px;
 	background-color: solid black;
@@ -38,10 +41,79 @@ body{
 
 #logo{
 	float: left;
+	margin-left:10px;
 }
 /*these are the */
 .logo{
-	background-color: white;
+	/*background-color: white;*/
+}
+
+.links{
+	/*background-color: #26a03d;*/
+}
+
+
+#logo img{
+	width: 100px;
+	height: 100px;
+	
+	
+}
+
+#nav_links_res{
+	width:100%;
+	float: left;
+	text-align: center;
+}
+
+
+#nav_links{
+	display: inline-block;
+	float: right;
+}
+
+#nav_links li{
+display: inline;
+
+}
+
+.nav{
+
+	height: 73px;
+	padding: 5px;
+	text-align: right;
+	/*padding-right: 50px;*/
+	padding-bottom: 10px;
+	/*padding-left: 50px;*/
+	padding-top: 20px;
+
+	/*background: white;*/
+	
+}
+nav img{
+	height:%;
+	width: 100px;
+
+}
+
+nav a:hover{
+	background-color:white;
+}
+
+nav a{
+	padding:15px;
+	margin-top:23px;
+	text-decoration: none;
+	color: white;
+
+}
+
+#logo{
+	float: left;
+}
+/*these are the */
+.logo{
+	/*background-color: white;*/
 }
 
 .links{
@@ -74,9 +146,7 @@ display: inline;
 .nav{
 	/*height: 78px;*/
 	/*padding: 5px;*/
-	text-align: right;
-	background: white;
-	
+	text-align: right;	
 }
 nav img{
 	/*width: 100%;*/
@@ -102,50 +172,34 @@ nav a{
 
 }
 
+   /*homepage styling*/
+
 header{
 	
-	height: 600px;
+	height: 700px;
 	border-radius: 0px;
 	background:url('../kid1.jpg') no-repeat;
 	background-size: cover;
 	page-break-after: 30s;
+	/*float: left;*/
 	/*background-size: cover;*/
 	width: 100%;
 	text-align: center;
 	font-family: arial;
 }
 
-
-.col-vol,.col-part,.col-sup{
-	width:100%;
-	float:left;
-	height:400px;
-	background-color:rgba(0, 128, 0, 0.53); 
-}
-
-.col-vol{
-	background-image: url("../ghana_kids.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	text-align: center;
-}
-
-
-.col-vol h1{
-	color:#FFF;
-	/*padding:180px 0;*/
-}
-
 .donate1{
  float: left;
  text-align: left;
- padding: 10px 70px 50px 100px;
+ padding:20px;
+ margin: 200px 50px 50px 50px;
  color: black;
  font-family: georgia;
  display: inline;
 }
 
- .donate1 ul li h1{
+
+.donate1 ul li h1{
     color:#fff;
     text-shadow:0px 1px 0px #333;
  }
@@ -159,44 +213,42 @@ header{
 }
 
 
-
-
-/*This style is for about us page               */
-
-
-
-
-
-footer{
-	/*height: 0px;*/
-
-	overflow: hidden;
-	background-color:#26a03d;
-	width: 100%
+.col-vol,.col-part,.col-sup{
+	width:100%;
+	float:left;
+	height:400px;
+	background-color:rgba(0, 128, 0, 0.53); 
 }
 
-.social_media{
+.col-vol{
+	background-image: url("../kid2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	text-align: center;
-	float: middle;
-	color: white;
-	padding: 50px 50px 50px 50px;
-}
-
-.div{
-	text-align: right;
-	color: white;
-	float: right;
-	padding: 100px 50px 50px 50px;
-}
-
-.contact{
-	text-align: left;
-	color: white;
-	float: left;
-	padding: 50px 50px 50px 50px;
 }
 
 
+.col-vol h1{
+	color:white;
+
+	/*padding:180px 0;*/
+}
+
+.col-part{
+        background-image: url("../ghana_kids.jpg");
+        background-repeat: no-repeat;
+        text-align: center;
+        display: inline;
+
+
+}
+
+.col-sup{
+	background-image: url("../kid5.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+}
+ 
 
 .section{
 	height: 350px;
@@ -208,3 +260,56 @@ footer{
 	float: left;
     margin: 20px 0;
 }
+
+
+
+
+
+/*This style is for footer              */
+
+
+
+
+
+footer{
+	/*height: 0px;*/
+    color: white
+	overflow: hidden;
+	background-color:#26a03d;
+	width: 100%
+}
+
+/*social_media{
+	text-align: right;
+	/*float: middle;*/
+	/*color: white;
+	padding: 50px 50px 50px 50px;
+}*/
+
+
+
+/*media (max-width: 535px){
+    .nav{
+    	height: initial;
+    }
+}
+*/
+
+
+
+/*.div{
+	text-align: right;
+	color: white;
+	float: right;
+	padding: 100px 50px 50px 50px;
+}
+*/
+/*.contact{
+	text-align: left;
+	color: white;
+*/	/*float: left;*/
+	/*padding: 50px 50px 50px 50px;*//*
+}*/
+
+
+
