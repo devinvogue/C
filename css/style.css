@@ -273,10 +273,11 @@ header{
 
 footer{
 	/*height: 0px;*/
-    color: white
+    /*color: white*/
 	overflow: hidden;
 	background-color:#26a03d;
-	width: 100%
+	width: 100%;
+	height: 200px;
 }
 
 /*social_media{
