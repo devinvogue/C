@@ -1,318 +1,174 @@
 @import url("bootstrap.min.css");
 @import url("font-awesome.min.css");
-body{
-	height: 1000px;
-	margin:0px;
-	width: 100%;
-}
-
-
-
-
-.nav1{
-	min-height: 20px;
-	background-color: solid black;
-	border:0px;
-}
-
-.hope{
-	text-align: left;
-	text-decoration: none;
-	color: white;
-	padding-right: 50px;
-	padding-bottom: 10px;
-	padding-left: 50px;
-	padding-top: 20px;
-}
-
-
-	
-
-/*}*/
-
-#donate{
-	text-decoration: none;
-	color: black;
-	text-align: right;
-	
-
-}
-
-
-#logo{
-	float: left;
-	margin-left:10px;
-}
-/*these are the */
-.logo{
-	/*background-color: white;*/
-}
-
-.links{
-	/*background-color: #26a03d;*/
-}
-
-
-#logo img{
-	width: 100px;
-	height: 100px;
-	
-	
-}
-
-#nav_links_res{
-	width:100%;
-	float: left;
-	text-align: center;
-}
-
-
-#nav_links{
-	display: inline-block;
-	float: right;
-	text-decoration: none;
-}
-
-#nav_links li{
-display: inline;
-text-decoration: none;
-
-}
-
-.nav{
-
-	height: 73px;
-	padding: 5px;
-	text-align: right;
-	/*padding-right: 50px;*/
-	padding-bottom: 10px;
-	/*padding-left: 50px;*/
-	padding-top: 20px;
-
-	/*background: white;*/
-	
-}
-nav img{
-	height:%;
-	width: 100px;
-
-}
-
-nav a:hover{
-	background-color:white;
-}
-
-nav a{
-	padding:15px;
-	margin-top:23px;
-	text-decoration: none;
-	color: white;
-
-}
-
-#logo{
-	float: left;
-}
-/*these are the */
-.logo{
-	/*background-color: white;*/
-}
-
-.links{
-	background-color: #26a03d;
-}
-
-
-#logo img{
-	width: 100px;
-	height: 100px;
-	
-	
-}
-
-
-#nav_links{
-	display: inline-block;
-	float: right;
-}
-
-#nav_links li{
-display: inline;
-
+@font-face{
+	font-family: "bs";  
+	src :url("../fonts/bs.ttf");
 }
 
 .navbar{
-   margin-bottom: 0;
+	margin-bottom: 0px;
+	height: 90px;
+    color: #1cf40b;
+    border-radius: 0px;
 }
 
 .nav{
-	/*height: 78px;*/
-	/*padding: 5px;*/
-	text-align: right;	
-}
-nav img{
-	/*width: 100%;*/
 
+margin-top: 20px;
+    
 }
 
-nav a:hover{
-	background-color:white;
+.navbar-default {
+    background-color: #26a03d;
+    border-color: #26a03d;
+    
 }
 
-nav a{
-	/*padding:15px;*/
-	/*margin-top:23px;*/
-	text-decoration: none;
-	color: white;
 
-}
-
-#h1 {
-	margin:0px;
-
-
-
-}
-
-   /*homepage styling*/
-
-header{
-	
-	height: 700px;
-	border-radius: 0px;
-	background:url('../kid1.jpg') no-repeat;
-	background-size: cover;
-	page-break-after: 30s;
-	/*float: left;*/
-	/*background-size: cover;*/
+.a{
 	width: 100%;
-	text-align: center;
-	font-family: arial;
-}
-
-.donate1{
- float: left;
- text-align: left;
- padding:20px;
- margin: 200px 50px 50px 50px;
- color: white;
- font-family: georgia;
- display: inline;
-}
-
-
-.donate1 ul li h1{
-    color:#fff;
-    text-shadow:0px 1px 0px #333;
- }
-
-.button{
+	/*height: 100vh;*/
+    height: 900px;
 	float: left;
- text-align: left;
- padding: 0px 50px 50px 100px;
- color: black;
- font-family: georgia;
+	/*background-image: url(../img/child7.jpg);*/
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/child7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    
+    
+}
+
+.box{
+    border: 2px solid white;
+    padding: 25px 30px; /*10px from top to button and 30px from left to right*/
+    color: greenyellow;
+    text-decoration: none;
+    border-radius: 1px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 170px;
+    
+}
+.a h4 {
+font-family: "cursive";
+    font-size: 20px;
 }
 
 
-.col-vol,.col-part,.col-sup{
-	width:100%;
-	float:left;
-	height:400px;
-	background-color:rgba(0, 128, 0, 0.53); 
-}
 
-.col-vol{
-	background-image: url("../kid2.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	text-align: center;
-}
-
-
-.col-vol h1{
-	color:white;
-
-	/*padding:180px 0;*/
-}
-
-.col-part{
-        background-image: url("../ghana_kids.jpg");
-        background-repeat: no-repeat;
-        text-align: center;
-        display: inline;
-
-
-}
-
-.col-sup{
-	background-image: url("../kid5.jpg");
-	background-repeat: no-repeat;
-	text-align: center;
-}
- 
-
-.section{
-	height: 350px;
+.b{
 	width: 100%;
-}
-
-.main-content{
-	width: 100%;
+	height: 400px;
 	float: left;
-    margin: 20px 0;
+	background-color: white;
+	padding: 40px 0;
 }
 
+.something{
+	width: 90%;
+	height: 300px;
+	background-color: antiquewhite;
+	float: left;
+   margin-left: 10px;
+    font-size: 15px;
+    font-family: inherit;
+    color: #f35504;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 
+}
 
+.something h3{
+    text-align: center;
+    margin-top: 30px;
+}
 
+ .something p{
+margin-top: 20px;
+}
 
-/*This style is for footer              */
-
-
-
+/*h3:after{
+    width: 100px;
+    height: 2px;
+    background-color: white;
+    display: block;
+    content: "";
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;*/
 
 
 footer{
-	/*height: 0px;*/
-    /*color: white*/
-	overflow: hidden;
-	background-color:#26a03d;
 	width: 100%;
-	height: 200px;
+	height: 500px;
+	float: left;
+	background-color: #010600;
+
+}
+.a h1{
+	/*font-family: "bs";*/
+    font-family: impact;
+    padding-top: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 90px;
+    padding-left: 200px;
+    font-weight:bold; 
+}
+.underline{
+    border-bottom: 2px solid #f35504;
+    transform: scaleY(0.5);
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-bottom: 20px;
 }
 
-/*social_media{
-	text-align: right;
-	/*float: middle;*/
-	/*color: white;
-	padding: 50px 50px 50px 50px;
-}*/
-
-
-
-/*media (max-width: 535px){
-    .nav{
-    	height: initial;
-    }
+.underlineh{
+    border-bottom: 2px solid white;
+    transform: scaleY(0.5);
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-bottom: 20px;
 }
-*/
 
+.some{
 
-
-/*.div{
-	text-align: right;
-	color: white;
-	float: right;
-	padding: 100px 50px 50px 50px;
-}
-*/
-/*.contact{
 	text-align: left;
 	color: white;
-*/	/*float: left;*/
-	/*padding: 50px 50px 50px 50px;*//*
-}*/
+    text-align: center;
+
+}
+.list-unstyled{
+    font-size: 20px;
+}
 
 
 
+.underlinef{
+    border-bottom: 1px solid white;
+    transform: scaleY(0.1);
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-bottom: 20px;
+}
+
+.underlinecr{
+
+    border-bottom: 1px solid white;
+    transform: scaleY(0.1);
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #555;
+}
